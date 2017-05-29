@@ -24,8 +24,8 @@ find_package(catkin REQUIRED COMPONENTS
 	${catkin_BUILD_PACKAGES}
 )
 
-include(../cob_3d_segmentation/cmake/OptimizeForArchitecture.cmake)
-OptimizeForArchitecture()
+#include(../cob_3d_segmentation/cmake/OptimizeForArchitecture.cmake)
+#OptimizeForArchitecture()
 
 ## System dependencies are found with CMake's conventions
 find_package(Boost REQUIRED COMPONENTS system)
