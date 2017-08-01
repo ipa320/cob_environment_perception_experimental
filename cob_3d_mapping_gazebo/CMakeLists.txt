@@ -6,7 +6,7 @@ set(catkin_RUN_PACKAGES
 	cob_script_server
 )
 
-set(catkin_BUILD_PACKAGES 
+set(catkin_BUILD_PACKAGES
 	#${catkin_RUN_PACKAGES}
 	#cmake_modules
 )

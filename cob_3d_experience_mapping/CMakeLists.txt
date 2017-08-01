@@ -13,7 +13,6 @@ set(catkin_RUN_PACKAGES
 
 set(catkin_BUILD_PACKAGES 
 	${catkin_RUN_PACKAGES}
-	cmake_modules
 )
 
 ## Find catkin macros and libraries
@@ -22,9 +21,6 @@ set(catkin_BUILD_PACKAGES
 find_package(catkin REQUIRED COMPONENTS
 	${catkin_BUILD_PACKAGES}
 )
-
-find_package(Eigen REQUIRED)
-
 
 generate_dynamic_reconfigure_options(
 	cfg/Settings.cfg
